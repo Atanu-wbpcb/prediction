@@ -51,6 +51,7 @@ def generate_plot(filtered_gdf):
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 
 # Generate marks for each month
